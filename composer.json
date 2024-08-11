@@ -1,0 +1,29 @@
+{
+    "name": "spec-doc/parser-contracts",
+    "type": "library",
+    "description": "A set of interfaces for the parser for the specificator",
+    "license": "MIT",
+    "keywords": ["abstractions", "contracts", "interfaces", "specification", "specificator", "specifier", "parser", "tokenizer"],
+    "homepage": "https://github.com/spec-doc",
+    "support": {
+        "issues": "https://github.com/spec-doc/specificator/issues",
+        "source": "https://github.com/spec-doc/parser-contracts"
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "spec-doc/kernel-contracts": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecDoc\\Specificator\\Contracts\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
